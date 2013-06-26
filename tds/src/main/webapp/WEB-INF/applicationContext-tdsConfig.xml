@@ -12,6 +12,9 @@
   <!-- Enables the Spring MVC @Controller programming model  -->
   <mvc:annotation-driven />
   
+  <!-- StorageManager DAO object -->
+  <import resource="classpath*:spring/config/BeanLocations.xml" />
+
   <!-- Handler Mapping -->
   <!--  In Spring 3.2  DefaultAnnotationHandlerMapping was deprecated in favor of   RequestMappingHandlerMapping-->
   <!--  bean class="org.springframework.web.servlet.mvc.annotation.DefaultAnnotationHandlerMapping" /-->
